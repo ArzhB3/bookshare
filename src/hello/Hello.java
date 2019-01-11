@@ -22,8 +22,7 @@ public class Hello {
 	 * @throws ParseException 
 	 */
 	public static void main(String[] args) throws ParseException {
-		// TODO Auto-generated method stub
-				
+						
 		System.out.println("Hello Java\r\n");
 		
 		// Create Renters
@@ -101,9 +100,9 @@ public class Hello {
 		SimpleDateFormat format = new SimpleDateFormat("yyyy-MM-dd");
 		Date date = format.parse("1905-05-21");
 		
-		Authors aut1 = Authors.getAuthors("Sartre", "Jean Paul", date);
+		//Authors aut1 = Authors.getAuthors("Sartre", "Jean Paul", date);
 				
-		System.out.println("\r\nAuteur : " + aut1.surname() + "\r\n");
+		//System.out.println("\r\nAuteur : " + aut1.surname() + "\r\n");
 		
 		
 		
